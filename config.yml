@@ -1,0 +1,18 @@
+captcha-times: 4
+# The time to wait in ticks before sending the GUI (20 ticks per second)
+wait-time: 4
+
+pass-message: "&aSuccessfully passed the captcha"
+dismissed-kick-message: "&c&lYou can not dismiss the captcha! After failing %amount% times, you will be banned."
+captcha-failed-message: "&c&lYou failed the captcha! After failing %amount% times, you will be banned."
+can-not-talk: "&cYou must complete the captcha before you use chat"
+
+# This is neccessary to ban players after too many attempts
+Use-Logging: true
+
+Ban-after-too-many-tries: true
+Failure-Ban-Times: 5
+Ban-Command: "tempban %player% 1d You've failed the captcha too many times!"
+
+Verified-Players:
+Failed-Captcha-Attempts:

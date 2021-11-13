@@ -1,0 +1,5 @@
+main: main.reximux.captcha.Main
+name: reCaptcha
+version: 1.0
+author: Reximux
+api-version: 1.13
